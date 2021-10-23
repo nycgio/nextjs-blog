@@ -1,3 +1,5 @@
+import classes from "./logo.module.css";
+
 export default function Logo() {
-	return <div>logo</div>;
+	return <div className={classes.logo}>NextJS Blog</div>;
 }
