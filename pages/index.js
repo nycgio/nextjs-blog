@@ -1,7 +1,13 @@
 import Head from "next/head";
 import Image from "next/image";
+import { Fragment } from "react";
+import Hero from "../components/home-page/hero";
 import styles from "../styles/Home.module.css";
 
 export default function HomePage() {
-	return <div>Hi</div>;
+	return (
+		<Fragment>
+			<Hero />
+		</Fragment>
+	);
 }
