@@ -12,7 +12,7 @@ export default function Hero() {
 					height={800}
 				/>
 			</div>
-			<h1>Hi, I'm Giorgi</h1>
+			<h1>Hi, I&apos;m Giorgi</h1>
 			<p>
 				I blog about web development - especially frontend frameworks like
 				ReactJS.
