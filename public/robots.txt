@@ -1,0 +1,7 @@
+Sitemap: https://reactjs-blog.vercel.app/api/sitemap
+
+User-agent: *
+Allow: /*
+Allow: /posts/*
+Disallow: /api/*
+
