@@ -1,7 +1,0 @@
-{
-	"functions": {
-		"lib/posts-util.js": {
-			"includeFiles": "database/**"
-		}
-	}
-}
