@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import FeaturedPosts from "../components/home-page/featured-posts";
 import Hero from "../components/home-page/hero";
-import { getFeaturedPosts } from "../lib/posts-util";
+import { getFeaturedPosts, getServerPost } from "../lib/posts-util";
 
 import Head from "next/head";
 
@@ -23,6 +23,8 @@ export default function HomePage(props) {
 
 export const getStaticProps = () => {
 	const featuredPosts = getFeaturedPosts();
+	const serverPost = getServerPost();
+	console.log(serverPost);
 
 	return {
 		props: {
