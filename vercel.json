@@ -1,0 +1,7 @@
+{
+	"functions": {
+		"api/sitemap.js": {
+			"includeFiles": "database/**"
+		}
+	}
+}
