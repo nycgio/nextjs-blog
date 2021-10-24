@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import FeaturedPosts from "../components/home-page/featured-posts";
 import Hero from "../components/home-page/hero";
-import { getFeaturedPosts, getServerPost } from "../lib/posts-util";
+import { getFeaturedPosts } from "../lib/posts-util";
 
 import Head from "next/head";
 
