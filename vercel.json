@@ -1,6 +1,6 @@
 {
 	"functions": {
-		"api/sitemap.js": {
+		"lib/posts-util.js": {
 			"includeFiles": "database/**"
 		}
 	}
